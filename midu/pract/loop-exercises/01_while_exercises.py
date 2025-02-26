@@ -90,7 +90,7 @@ while n <= numero:
     divisor = 2
     while divisor * divisor <= n:
         if n % divisor == 0:
-            primo == False
+            primo = False
             break
         divisor += 1
     if primo:

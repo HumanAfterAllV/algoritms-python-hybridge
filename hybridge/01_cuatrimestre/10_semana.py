@@ -8,7 +8,7 @@ tesoros = {
     4: "Mochila"
 }
 while respuesta != "n":
-    print("Tesoros disponibles")
+    print("Tesoros disponibles")    
     for key, value in tesoros.items():
         print(f"{key} - {value}")
 
